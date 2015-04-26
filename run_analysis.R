@@ -35,7 +35,7 @@ y_test[y_test==6] <- "LAYING"
 #adding the variable names in the columns
 names(test.dataset) <- features[,2]
 
-# merging the 3 text files
+# bind the 3 text files
 test.dataset <- cbind(test_subject, y_test, test.dataset)
 
 # we filter for only "mean" and "std" in the dataset
