@@ -14,7 +14,9 @@ Package Requirements
 
 You need:
 						*doBy
+						
 						*reshape
+						
 						*internet connection
 
 
