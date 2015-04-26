@@ -13,6 +13,7 @@ Package Requirements
 --------------------
 
 You need:
+
 						*doBy
 						
 						*reshape
@@ -23,14 +24,18 @@ You need:
 Installing Requirements
 -----------------------
 execute on an R console:
+
 						*install.packages("doBy")
+						
 						*install.packages("reshape")
+						
 
 
 
 Running the script
 ------------------
 executing on console:
+
 						*Rscript run_analysis.R
 
 
