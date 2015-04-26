@@ -53,8 +53,11 @@ Apart from dependencies on packages the script is made to be as independent as p
 
 Files path
 ----------
+
 Returned file tidyData.txt		working directory/UCI/
+
 Zipped file Dataset.Zip   		working directory/UCI/
+
 Working data text files  		  working directory/UCI/UCI HAR Dataset/
 
 
