@@ -1,3 +1,6 @@
+library(doBy)
+library(reshape)
+
 ## we check if the zipped file exists
 if (!file.exists("./UCI")){dir.create("./UCI")}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -117,8 +120,6 @@ colnames(merged.df)[2] <- "activity"
 t <- melt(merged.df, id=c("subject","activity"))
 
 ## obtaining the average
-install.packages("doBy")
-library(doBy)
 t1 <- summaryBy(value ~ subject + activity + variable, data=t, FUN=mean)
 colnames(t1)[colnames(t1)=="value.mean"] <- "mean"
 
