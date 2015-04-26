@@ -4,32 +4,32 @@ Rogelio Guzman <roygual@hotmail.com>
 
 R script for generating a dataset with the principles of tidy data with data obtained from Samsung wearable computing data files
 
----------------------------------------------------------------------------------------------------------------------------------------------
+
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 Package Requirements
 --------------------
 
 You need:
-						doBy
-						reshape
-						internet connection
+						*doBy
+						*reshape
+						*internet connection
 
 
 Installing Requirements
 -----------------------
 execute on an R console:
-						install.packages("doBy")
-						install.packages("reshape")
+						*install.packages("doBy")
+						*install.packages("reshape")
 
 
 
 Running the script
 ------------------
 executing on console:
-						Rscript run_analysis.R
+						*Rscript run_analysis.R
 
 
 
